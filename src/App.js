@@ -4,7 +4,7 @@ import { Provider } from 'react-redux'
 import store from './store/Store'
 
 function App() {
-  return (   
+  return (
     <Provider store={store}>
       <Navbar />
       <UserList />
